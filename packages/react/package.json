@@ -1,5 +1,5 @@
 {
-  "name": "@osten-moove-quick-dash/react",
+  "name": "@quick-dash/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -18,8 +18,8 @@
   "description": "",
   "devDependencies": {
     "@chromatic-com/storybook": "1.9.0",
-    "@osten-moove-quick-dash/ts-config": "*",
-    "@osten-moove/tokens": "*",
+    "@quick-dash/ts-config": "*",
+    "@quick-dash/tokens": "*",
     "@storybook/addon-essentials": "8.3.6",
     "@storybook/addon-interactions": "8.3.6",
     "@storybook/addon-links": "8.3.6",

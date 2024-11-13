@@ -1,5 +1,5 @@
 {
-  "name": "@osten-moove/tokens",
+  "name": "@quick-dash/tokens",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
