@@ -19,8 +19,7 @@ jobs:
       - run: npm run build
 
       - name: Deploy storybook
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: ./packages/react/storybook-static
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+        working-directory: ./packages/react
+        run: npm run deploy:storybook -- --ci --existing-output-dir=storybook-static
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
